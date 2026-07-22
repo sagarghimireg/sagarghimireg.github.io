@@ -8,9 +8,9 @@
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body { font-family: 'Segoe UI', Arial, sans-serif; line-height: 1.6; color: #2d2d2d; background: #fafafa; }
-    nav { background: #1e1e2f; padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+    nav { background: #1e1e2f; padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; }
     nav .logo { color: #fff; font-weight: bold; font-size: 1.3rem; }
-    nav ul { list-style: none; display: flex; gap: 1.5rem; }
+    nav ul { list-style: none; display: flex; gap: 1.5rem; flex-wrap: wrap; }
     nav a { color: #ddd; text-decoration: none; transition: color 0.2s; }
     nav a:hover { color: #fff; }
     header.hero { background: linear-gradient(135deg, #4a4ae0, #7b2ff7); color: white; text-align: center; padding: 5rem 1.5rem; }
@@ -21,6 +21,7 @@
     .card { background: white; border-radius: 10px; padding: 1.5rem; margin-top: 1rem; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
     .btn { display: inline-block; margin-top: 1rem; padding: 0.7rem 1.5rem; background: #7b2ff7; color: white; text-decoration: none; border-radius: 6px; transition: background 0.2s; }
     .btn:hover { background: #5e1fd0; }
+    .badge { display: inline-block; background: #f0e9ff; color: #7b2ff7; font-size: 0.85rem; font-weight: bold; padding: 0.2rem 0.7rem; border-radius: 20px; margin-bottom: 0.5rem; }
     footer { text-align: center; padding: 2rem; color: #888; font-size: 0.9rem; }
     @media (max-width: 600px) {
       nav { flex-direction: column; gap: 0.8rem; }
@@ -34,6 +35,7 @@
     <ul>
       <li><a href="#about">About</a></li>
       <li><a href="#projects">Research & Work</a></li>
+      <li><a href="#awards">Awards</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
   </nav>
@@ -47,7 +49,7 @@
     <h2>About Me</h2>
     <div class="card">
       <p>
-        I serve as a Senior Horticulture Development Officer at the Ministry of Agriculture and Livestock Development, Government of Nepal. I completed a Master's in Agricultural Economics from Agriculture and Forestry University, Rampur, Chitwan, Nepal. Currently, I am enrolled in a Doctoral Course in Agriculture Sciences with a major in Agricultural Economics at the University of Tsukuba in Ibaraki, Japan, supported by the Japanese Government (MONBUKAGAKUSHO: MEXT) Scholarship since 2023. My research interests include production economics, food security, agricultural transformation, and rural development.
+        I serve as a Senior Horticulture Development Officer at the Ministry of Agriculture and Livestock Development, Government of Nepal. I completed a Master's in Agriculture (Agricultural Economics) from Agriculture and Forestry University, Rampur, Chitwan, Nepal. Currently, I am enrolled in a Doctoral Course in Agriculture Sciences with a major in Agricultural Economics at the University of Tsukuba in Ibaraki, Japan, supported by the Japanese Government (MONBUKAGAKUSHO: MEXT) Scholarship since 2023. My research interests include production economics, food security, agricultural transformation, and rural development.
       </p>
     </div>
   </section>
@@ -60,8 +62,31 @@
     </div>
     <div class="card">
       <h3>Master's Thesis</h3>
-      <p><strong>Degree:</strong> Master of Science in Agriculture (Agricultural Economics), Agriculture and Forestry University, Rampur, Chitwan, Nepal</p>
-      <p><strong>Thesis:</strong> "Economics of Vegetable Production and Marketing in Gaighat-Lahan Road Corridor of Eastern Nepal"</p>
+      <p><strong>Degree:</strong> Master's in Agriculture (Agricultural Economics), Agriculture and Forestry University, Rampur, Chitwan, Nepal</p>
+      <p><strong>Thesis:</strong> "Economics of Vegetable Production and Marketing in Gaighat-Lahan Corridor of Eastern Nepal"</p>
+    </div>
+    <div class="card">
+      <h3>Government Service</h3>
+      <p>Senior Horticulture Development Officer, Ministry of Agriculture and Livestock Development, Government of Nepal — working on horticulture development, food security, and rural development initiatives.</p>
+    </div>
+  </section>
+
+  <section id="awards">
+    <h2>Awards & Scholarships</h2>
+    <div class="card">
+      <span class="badge">Master's</span>
+      <h3>Chancellor Gold Medal</h3>
+      <p>Awarded for being the **University Topper** among all Master's graduates at Agriculture and Forestry University, Rampur, Chitwan, Nepal.</p>
+    </div>
+    <div class="card">
+      <span class="badge">Master's</span>
+      <h3>Vice-Chancellor Gold Medal</h3>
+      <p>Awarded for being the **Faculty Topper** in the Faculty of Agriculture, Agriculture and Forestry University, Rampur, Chitwan, Nepal.</p>
+    </div>
+    <div class="card">
+      <span class="badge">PhD</span>
+      <h3>MEXT Scholarship</h3>
+      <p>Japanese Government (MONBUKAGAKUSHO: MEXT) Scholarship for doctoral studies at the University of Tsukuba, Japan (2023–2026).</p>
     </div>
   </section>
 
